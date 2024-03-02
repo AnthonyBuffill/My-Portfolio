@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.2.3",
+    "dotenv": "^16.4.5",
     "emailjs-com": "^3.2.0",
     "math-random": "^2.0.1",
     "react": "^18.2.0",
