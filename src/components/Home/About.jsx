@@ -21,7 +21,7 @@ const About = () => {
                 </h1>
                 <p className="home-about-body">
                  Hi, my name is <span className="yellow">Anthony Buffill</span>
-                 An American born in Brooklyn, New York <span className="yellow"> but relocated with my Teaxs born wife and our son to the Austin, Texas area</span>
+                 An American born and raised in Brooklyn, New York <span className="yellow"> and recently relocated with my Texas born wife and our son to the Austin, Texas area</span>
                 <br />
                 <br />
                 I am currently a Full-Stack Web Development bootcamp student at the University Of Texas, Austin....Hook Em Horns!
@@ -38,7 +38,7 @@ const About = () => {
                   <br />
                   <br />
                   I have a passion for working
-                  with <b className="yellow">Node.js, MongoDB, SQL</b> and
+                  with <b className="yellow"><i>Node.js, MongoDB, SQL</i></b> and
                   <i>
                     <b className="yellow">
                       {" "}
