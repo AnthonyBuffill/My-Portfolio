@@ -37,12 +37,7 @@ const Home = () => {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              {/* <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px", borderRadius: "50%" }}
-              /> */}
+              
                <div class="circular-slider">
     <div class="slider-content">
       <div class="slider-item">

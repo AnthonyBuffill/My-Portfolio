@@ -19,6 +19,7 @@ Highly motivated and experienced professional with over 20 years of experience i
   - Postman
   - Insomnia
   - Graphql
+  - Agile 
 
 ## EDUCATION
 University of Texas, Austin  

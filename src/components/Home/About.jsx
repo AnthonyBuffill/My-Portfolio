@@ -32,8 +32,8 @@ const About = () => {
                   I enjoy tackling new challenges and continuously expanding my skillset.
                   <br />
                   <br />I am proficient in
-                    <b className="yellow"> C++ </b>
-                    as well as have knowledge in programming languages such as HTML, CSS, Javascript, and I am a provenly fast learner of many other syntax/ languages.  As A bootcamp student I have been consistently tried in a fast pace execution enviroment and have made a way by learning on the fly.
+                    <b className="yellow"> Javascript, </b>
+                    and have knowledge in many other programming languages such as HTML, CSS, Java and C++.  I am a provenly fast learner of many other syntax/ languages.  As A bootcamp student I have been consistently tried in a fast pace execution enviroment and have made a way by learning on the fly. I possess a willingness to adapt in an AGILE enviroment, and a strong Growth Mindset which are core values to contribute to achieving your companys goals. 
                   <b className="yellow"> Do NOt miss out on the opportunity to work with  charismatic loyal colleague such as myself.</b>
                   <br />
                   <br />
