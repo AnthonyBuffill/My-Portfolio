@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 
 import Home from './pages/Home'
-import Skill from './pages/Skillset'
 import Project from './pages/Projects'
 import Resume from './pages/Resume'
 import Contact from './pages/Contact'
@@ -41,7 +40,6 @@ function App() {
         <ScrollToTop />
         <Routes>
         <Route path='/' element={<div className='relative'><Home/><StarCanvas/></div> } />
-          <Route path="/skillset" element={<Skill />} />
           <Route path="/project" element={<Project />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
