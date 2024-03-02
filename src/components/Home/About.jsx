@@ -17,14 +17,14 @@ const About = () => {
             <Row>
               <Col md={8} className="home-about-description">
                 <h1 style={{ fontSize: "2.6em" }}>
-                  LET ME <span className="yellow"> INTRODUCE </span> MYSELF
+                  Allow Me <span className="yellow"> INTRODUCE </span> MYSELF
                 </h1>
                 <p className="home-about-body">
-                 Hi, my name is <span className="yellow">Avanish Srivastava </span>
-                 and I'm from <span className="yellow"> Gorakhpur, UttarPradesh, India.</span>
+                 Hi, my name is <span className="yellow">Anthony Buffill</span>
+                 An American born in Brooklyn, New York <span className="yellow"> but relocated with my Teaxs born wife and our son to the Austin, Texas area</span>
                 <br />
                 <br />
-                I am currently a 4th-year undergraduate in the Computer Science and Engineering Concentration at Pranveer Singh Institute of Technology, Kanpur.
+                I am currently a Full-Stack Web Development bootcamp student at the University Of Texas, Austin....Hook Em Horns!
                 <br />
                 <br />
                   As a
@@ -33,12 +33,12 @@ const About = () => {
                   <br />
                   <br />I am proficient in
                     <b className="yellow"> C++ </b>
-                    as well as have knowledge in programming languages such as C, Python, Javascript
-                  <b className="yellow"> and Solidity.</b>
+                    as well as have knowledge in programming languages such as HTML, CSS, Javascript, and I am a provenly fast learner of many other syntax/ languages.  As A bootcamp student I have been consistently tried in a fast pace execution enviroment and have made a way by learning on the fly.
+                  <b className="yellow"> Do NOt miss out on the opportunity to work with  charismatic loyal colleague such as myself.</b>
                   <br />
                   <br />
                   I have a passion for working
-                  with <b className="yellow">Node.js, MongoDB,</b> and
+                  with <b className="yellow">Node.js, MongoDB, SQL</b> and
                   <i>
                     <b className="yellow">
                       {" "}
@@ -55,7 +55,7 @@ const About = () => {
                   <i>
                     <b className="yellow"> Web Technologies and Products, </b>
                     as well as exploring areas related to
-                    <b className="yellow"> Blockchain.</b>
+                    <b className="yellow"> Cybersecurity and Data Analytics.</b>
                   </i>
                   <br />
                   
@@ -71,12 +71,12 @@ const About = () => {
               <Col md={12} className="home-about-social">
                 <h1>FIND ME ON</h1>
                 <p>
-                Please don't hesitate to reach out to me and <span className="yellow">connect.</span>
+                I look forward to you reaching out to me and <span className="yellow">connecting.</span>
                 </p>
                 <ul className="home-about-social-links">
                   <li className="social-icons">
                     <a
-                      href="https://github.com/Avanishsri31"
+                      href="https://github.com/Anthonybuffill"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -87,7 +87,7 @@ const About = () => {
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://twitter.com/Avanish66224549"
+                      href="https://twitter.com/AnthonyBuffill"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -98,7 +98,7 @@ const About = () => {
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://www.linkedin.com/in/avanish-srivastava-533035203/"
+                      href="https://www.linkedin.com/in/AnthonyBuffill"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -109,7 +109,7 @@ const About = () => {
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://www.instagram.com/avanishsri31/"
+                      href="https://www.instagram.com/AnthonyBuffill"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour home-social-icons"

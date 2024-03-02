@@ -12,7 +12,6 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineContacts
 } from "react-icons/ai";
-import { GiSkills } from "react-icons/gi"
 import { CgFileDocument } from "react-icons/cg";
 
 
@@ -62,16 +61,6 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/skillset"
-                onClick={() => updateExpanded(false)}
-              >
-                <GiSkills style={{ marginBottom: "2px" }} /> Skillset
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
@@ -104,7 +93,7 @@ function NavBar() {
 
             { <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/Avanishsri31/React-Portfolio"
+                href="https://github.com/AnthonyBuffill/React-Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >

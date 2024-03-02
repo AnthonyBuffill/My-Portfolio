@@ -25,7 +25,7 @@ const Footer = () => {
             <ul className="footer-icons">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Avanishsri31"
+                  href="https://github.com/AnthonyBuffill"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -36,7 +36,7 @@ const Footer = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Avanish66224549"
+                  href="https://twitter.com/AnthonyBuffill"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -47,7 +47,7 @@ const Footer = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/avanish-srivastava-533035203/"
+                  href="https://www.linkedin.com/in/anthony-buffill-584569b1/"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -58,7 +58,7 @@ const Footer = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/avanishsri31/"
+                  href="https://www.instagram.com/toe_knee.b/"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"

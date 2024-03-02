@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
 import './Contact.css'
 
+
 const Contact = () => {
     const form = useRef();
     const [done, setDone] = useState(false)
@@ -27,11 +28,12 @@ const Contact = () => {
       
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        "service_k39fenv",
+        "template_4nh0n7w",
         form.current,
-        process.env.REACT_APP_PUBLIC_KEY
+        "YQ7qpZXUUcS3eLhmK"
       )
+      
       .then(
         (result) => {
           console.log(result.text);
