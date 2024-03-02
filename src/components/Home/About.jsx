@@ -17,7 +17,7 @@ const About = () => {
             <Row>
               <Col md={8} className="home-about-description">
                 <h1 style={{ fontSize: "2.6em" }}>
-                  Allow Me <span className="yellow"> INTRODUCE </span> MYSELF
+                  ALLOW <span className="yellow"> ME </span> TO <span className="yellow"> INTRODUCE </span> MYSELF
                 </h1>
                 <p className="home-about-body">
                  Hi, my name is <span className="yellow">Anthony Buffill</span>
