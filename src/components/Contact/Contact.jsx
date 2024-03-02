@@ -7,21 +7,21 @@ import './Contact.css'
 
 const Contact = () => {
     const form = useRef();
-    const [done, setDone] = useState(false)
-    const [notDone, setNotDone] = useState(false)
+    const [completed, setcompleted] = useState(false)
+    const [incomplete, setIncomplete] = useState(false)
     const [formData, setFormData] = useState({});
 
     const handleChange = (e) => {
         setFormData({...formData, [e.target.name] : e.target.value})
-        setDone(false)
-        setNotDone(false)
+        setcompleted(false)
+        setIncomplete(false)
     }
 
     const sendEmail = (e) => {
     e.preventDefault();
     
     if(!formData.from_name || !formData.reply_to ||!formData.message){
-      setNotDone(true)
+      setIncomplete(true)
     } else {
       
       //  Please use your own credentials from emailjs or i will recive your email
@@ -37,7 +37,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setDone(true);
+          setcompleted(true);
         },
         (error) => {
           console.log(error.text);
@@ -52,16 +52,16 @@ const Contact = () => {
             <Row >
             <Col md={6} className="c-left" >
             <h1 >Get in Touch</h1>
-            <h1 className="yellow">Contact me</h1>
+            <h1 className="yellow">Contact Me</h1>
             </Col>
             <Col md={6} className="c-right">
                 <form ref={form} onSubmit={sendEmail}>
                 <input type="text" name="from_name" className="user"  placeholder="Name" onChange={handleChange}/>
                 <input type="email" name="reply_to" className="user" placeholder="Email" onChange={handleChange} />
                 <textarea name="message" className="user" placeholder="Message" onChange={handleChange} />
-                <span className='not-done' >{notDone && "Please, fill all the input field"}</span>
-                <Button type="submit" className="button" disabled={done}>Send</Button>
-                <span className='done'>{done && "Thanks for contacting me and be sure i have recieved your mail. If you are testing this functionality then i am confirming this thing working perfectly fine. If you have any serious query then i will reply. Also if you need me, you can conatct me on Linkedin."}</span>
+                <span className="not-done" >{incomplete && "Please, fill all required input fields"}</span>
+                <Button type="submit" className="button" disabled={completed}>Send</Button>
+                <span className="done">{completed && "Thank you for contacting me.  Your email has been successfully submitted. if you have sent me your contact information, rest assured i will be in touch at the earliest convenience."}</span>
                 </form>
             </Col>
             </Row>
