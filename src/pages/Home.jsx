@@ -1,11 +1,11 @@
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import pic1 from '../assets/pic1.jpeg'
-import pic2 from '../assets/pic2.jpg'
-import pic3 from '../assets/pic3.jpg'
+import pic2 from '../assets/pic2.jpeg'
+import pic3 from '../assets/pic3.png'
 import pic4 from '../assets/pic4.jpg'
-import pic5 from '../assets/pic5.jpg'
-import pic6 from '../assets/pic6.jpg'
+import pic5 from '../assets/pic5.png'
+
 import Particle from '../components/Particle';
 import About from '../components/Home/About';
 import Type from '../components/Home/Type';
@@ -20,7 +20,7 @@ const Home = () => {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Welcome!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
@@ -28,7 +28,7 @@ const Home = () => {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Avanish Srivastava</strong>
+                <strong className="main-name"> Anthony Buffill</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -60,9 +60,7 @@ const Home = () => {
       <div class="slider-item">
         <img src={pic5} alt='' />
       </div>
-      <div class="slider-item">
-        <img src={pic6} alt='' />
-      </div>
+      
     </div>
   </div>
             </Col>
