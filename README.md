@@ -114,7 +114,7 @@ or harmful.
 
 For more information click the links below to my Heroku repository as well as my github profile:
 
-Netlify:  https://antbuffillportfolio.netlify.app/
+Netlify: https://antbuffillportfolio.netlify.app/
 
 GITHUB repository: https://github.com/AnthonyBuffill/My-Portfolio
 
