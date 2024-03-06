@@ -3,15 +3,15 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 
-import Particle from '../components/Particle'
-import pdf from "../assets/ABuffillresume.pdf"
+import Particle from '../components/Particle';
+import pdf from "../assets/ABuffillresume.pdf";
 
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink = `https://antbuffillportfolio.netlify.app/static/media/ABuffillresume.6f5d4e6a60bc72bd232a.pdf`
+const resumeLink = `https://antbuffillportfolio.netlify.app/static/media/ABuffillresume.39073fbcb9fc757ef465.pdf`
 
 
 const Resume = () => {
@@ -39,7 +39,7 @@ const Resume = () => {
         </Row>
 
         <Row className="resume">
-          <Document file={resumeLink} className="d-flex justify-content-center">
+          <Document file={resumeLink } className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
