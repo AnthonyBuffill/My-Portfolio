@@ -11,7 +11,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink = `https://main--antbuffillportfolio.netlify.app/static/media/ABuffillresume.09045a121c1d0090fac0.pdf`
+const resumeLink = `https://antbuffillportfolio.netlify.app/static/media/abuffillresume.09045a121c1d0090fac0.pdf`
 
 
 const Resume = () => {
