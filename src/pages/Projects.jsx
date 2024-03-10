@@ -37,7 +37,7 @@ const Projects = () => {
               imgPath={SpeedQuiz}
               isBlog={false}
               title="Speedy Sports Quiz"
-              description="Have you got waht it takes to beat this quiz?  heres what you're up against: 25 seconds, 7 questions, and some anxiety inducing stylings to make you feel the pressure...good luck."
+              description="Have you got what it takes to beat this quiz?  heres what you're up against: 25 seconds, 7 questions, and some anxiety inducing stylings to make you feel the pressure...good luck."
               ghLink= "https://github.com/AnthonyBuffill/sports-quiz"
               demoLink= "https://anthonybuffill.github.io/sports-quiz/"
             />
