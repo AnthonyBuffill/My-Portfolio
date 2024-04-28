@@ -42,7 +42,7 @@ const Social = () => {
                   </li>
                   <li className="contact-icons">
                     <a
-                      href="https://www.linkedin.com/in/anthony-buffill-584569b1/"
+                      href="https://www.linkedin.com/in/anthony-buffill-584569b1"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
@@ -52,7 +52,7 @@ const Social = () => {
                   </li>
                   <li className="contact-icons">
                     <a
-                      href="https://www.instagram.com/toe_knee.b/"
+                      href="https://www.instagram.com/toe_knee.b"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color contact-social-icons"
